@@ -17,7 +17,7 @@
 ![输入图片说明](images/image4.png)
 ![输入图片说明](images/image5.png)
 
-3.门店管理端,部署案例：https://wsm.weishequ.com （点击图片放大查看）
+3.门店管理端,部署案例：https://wsm.weishequ.com 用户名wsmadmin 密码wsmadmin（点击图片放大查看）
 ![输入图片说明](images/image6.png)
 ![输入图片说明](images/image7.png)
 ![输入图片说明](images/image8.png)
