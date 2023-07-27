@@ -30,7 +30,12 @@ AppSecret ad45d97d283c518e15b4bda75c887dec
 4.云喇叭 W7022621597
 `
 
-购买这些硬件就行了
+#### 适配硬件购买链接
+##### 1.不锈钢wifi门锁（W89） https://item.taobao.com/item.htm?id=707688264083
 
+##### 2.WiFi版门禁控制器（W76）  https://item.taobao.com/item.htm?id=620408378542
 
+##### 3.空开断路器（W71） https://item.taobao.com/item.htm?id=717243906521
+
+##### 4.云喇叭（W70） https://item.taobao.com/item.htm?id=719589244787
 
