@@ -1,6 +1,6 @@
 ### 数据库sql在目录下，配置文件为目录下.env文件
 
-``` 
+```php 
 APP_DEBUG = true
 [APP]
 DEFAULT_TIMEZONE = Asia/Shanghai
