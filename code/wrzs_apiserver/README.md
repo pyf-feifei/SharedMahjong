@@ -1,3 +1,21 @@
+### 数据库sql在目录下，配置文件为目录下.env文件
+
+`APP_DEBUG = true
+[APP]
+DEFAULT_TIMEZONE = Asia/Shanghai
+[DATABASE]
+TYPE = mysql
+HOSTNAME =127.0.0.1
+DATABASE = wrzs
+USERNAME = wrzs
+PASSWORD = 1111111111111111
+HOSTPORT = 3306
+CHARSET = utf8mb4
+DEBUG = true
+prefix = kg_
+[LANG]
+default_lang = zh-cn
+`
 ### 硬件配置文件
 
 app\module\hardwareCloud\serverConfig.php
@@ -13,5 +31,6 @@ AppSecret ad45d97d283c518e15b4bda75c887dec
 `
 
 购买这些硬件就行了
+
 
 
