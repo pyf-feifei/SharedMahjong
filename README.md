@@ -24,7 +24,7 @@
 ![输入图片说明](images/image8.png)
 ![输入图片说明](images/image9.png)
 
-#### 4.手机管理端,部署案例：https://wmm.weishequ.com
+#### 4.手机管理端,部署案例：https://wmm.weishequ.com 帐号密码在门店管理端添加
 ![输入图片说明](images/image10.png)
 ![输入图片说明](images/image11.png)
 #### 5.小程序端,部署案例：智云共享 小程序，扫码体验
