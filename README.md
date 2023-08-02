@@ -1,6 +1,6 @@
 # 无人值守共享空间共享茶室自助棋牌室源码
 ### 源代码小复杂，需要熟悉Thinkphp、Vue、HBuilderX、SuperVisord等才能搞定，硬件购买地址 https://weimenjin.taobao.com （门禁机、低功耗实时连接wifi锁、空开断路器、云喇叭等）
-### 下载请给个star，star是工程师生发的动力
+### 下载请给个star，star是攻城狮生发的动力
 ![输入图片说明](images/image.png)
 
 ### 一、摘要
@@ -12,21 +12,22 @@
 ![输入图片说明](images/image3.png)
 
 ### 二、系统结构
-1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
-2.系统管理端,部署案例：https://wma.weishequ.com
+#### 1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
+
+#### 2.系统管理端,部署案例：https://wma.weishequ.com 用户名admin 密码weimenjin 微门禁拼音
 ![输入图片说明](images/image4.png)
 ![输入图片说明](images/image5.png)
 
-3.门店管理端,部署案例：https://wsm.weishequ.com 用户名wsmadmin 密码wsmadmin（点击图片放大查看）
+#### 3.门店管理端,部署案例：https://wsm.weishequ.com 用户名wsmadmin 密码wsmadmin（点击图片放大查看）
 ![输入图片说明](images/image6.png)
 ![输入图片说明](images/image7.png)
 ![输入图片说明](images/image8.png)
 ![输入图片说明](images/image9.png)
 
-4.手机管理端,部署案例：https://wmm.weishequ.com
+#### 4.手机管理端,部署案例：https://wmm.weishequ.com
 ![输入图片说明](images/image10.png)
 ![输入图片说明](images/image11.png)
-5.小程序端,部署案例：智云共享 小程序，扫码体验
+#### 5.小程序端,部署案例：智云共享 小程序，扫码体验
 ![输入图片说明](images/image12.png)
 ![输入图片说明](images/image13.png)
 ![输入图片说明](images/image14.png)
