@@ -1,5 +1,0 @@
-{
-  "usingComponents": {
-    "player-component": "plugin://player/video"
-  }
-}
