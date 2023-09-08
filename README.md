@@ -20,7 +20,7 @@
 #### 5.短信和语音通知进程，启动指令 php think roomEndSms，目录同上，如下图：
 ![输入图片说明](images/fjddjs.png)
 
-### 四、系统结构
+### 四、已部署好的演示平台（后端及小程序）
 #### 1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
 
 #### 2.系统管理端,部署案例：https://wma.weishequ.com 用户名admin 密码weimenjin 微门禁拼音，请不要修改这个密码，以便其他人能登录。
