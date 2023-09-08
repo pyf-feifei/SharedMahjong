@@ -6,21 +6,21 @@
 ### 一、摘要
 本系统适用于无人值守场景（茶室、棋牌室、运动场馆），主要功能流程为:顾客小程序下单预约—-自助开门—-开电—-云喇叭语音提醒。系统还考虑了加盟和商城，小复杂，其代码分为5个端：
 ![输入图片说明](images/image1.png)
-四个端需要部署在服务器，如：
+### 二、四个端需要部署在服务器，如：
 ![输入图片说明](images/image2.png)
-系统使用了Supervisor对房间和订单自动化管理
-1.宝塔面板安装进程守护管理器
+### 三、系统使用了进程守护管理器（Supervisor）对房间和订单自动化管理，使用方法如下：
+#### 1.宝塔面板安装进程守护管理器
 ![输入图片说明](images/shjc.png)
-2.添加订单业务进程,启动指令 php think xdOrder，进程目录/www/wwwroot/was.weishequ.com/wrzs_apiserver/,如下图：
+#### 2.添加订单业务进程,启动指令 php think xdOrder，进程目录/www/wwwroot/was.weishequ.com/wrzs_apiserver/,如下图：
 ![输入图片说明](images/ddyw.png)
-3.添加房间启动进程，启动指令php think roomStart，目录同上，如下图：
+#### 3.添加房间启动进程，启动指令php think roomStart，目录同上，如下图：
 ![输入图片说明](images/roomstart.png)
-4.添加房间结束进程，启动指令php think roomEnd，目录同上，如下图：
+#### 4.添加房间结束进程，启动指令php think roomEnd，目录同上，如下图：
 ![输入图片说明](images/roomend.png)
-5.短信和语音通知进程，启动指令 php think roomEndSms，目录同上，如下图：
+#### 5.短信和语音通知进程，启动指令 php think roomEndSms，目录同上，如下图：
 ![输入图片说明](images/fjddjs.png)
 
-### 二、系统结构
+### 四、系统结构
 #### 1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
 
 #### 2.系统管理端,部署案例：https://wma.weishequ.com 用户名admin 密码weimenjin 微门禁拼音，请不要修改这个密码，以便其他人能登录。
@@ -50,8 +50,8 @@
 ![输入图片说明](images/image22.png)
 ![输入图片说明](images/image23.png)
 ![输入图片说明](images/image24.png)
-### 三、 硬件云平台地址 https://wdev.wmj.com.cn/ ，手机号登录后获取API文档
-### 四、数据库sql在目录下，配置文件为目录下.env文件
+### 五、 硬件云平台地址 https://wdev.wmj.com.cn/ ，手机号登录后获取API文档
+### 六、数据库sql在目录下，配置文件为目录下.env文件
 
 ```php 
 APP_DEBUG = true
@@ -70,7 +70,7 @@ prefix = kg_
 [LANG]
 default_lang = zh-cn
 ```
-### 五、硬件配置及购买链接
+### 七、硬件配置及购买链接
 
 app\module\hardwareCloud\serverConfig.php
 #### 默认对接硬件云配置
