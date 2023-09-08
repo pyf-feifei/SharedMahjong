@@ -2,7 +2,6 @@
 ### 源代码小复杂，需要熟悉Thinkphp、Vue、HBuilderX、SuperVisord等才能搞定，硬件购买地址 https://weimenjin.taobao.com （门禁机、低功耗实时连接wifi锁、空开断路器、云喇叭等）
 ### 下载请给个star，star是攻城狮生发的动力
 ![输入图片说明](images/02df780a39cb63aed78f76c7b4442cb.jpg)
-![输入图片说明](images/image.png)
 
 ### 一、摘要
 本系统适用于无人值守场景（茶室、棋牌室、运动场馆），主要功能流程为:顾客小程序下单预约—-自助开门—-开电—-云喇叭语音提醒。系统还考虑了加盟和商城，小复杂，其代码分为5个端：
@@ -10,7 +9,16 @@
 四个端需要部署在服务器，如：
 ![输入图片说明](images/image2.png)
 系统使用了Supervisor对房间和订单自动化管理
-![输入图片说明](images/image3.png)
+1.宝塔面板安装进程守护管理器
+![输入图片说明](images/shjc.png)
+2.添加订单业务进程,启动指令 php think xdOrder，进程目录/www/wwwroot/was.weishequ.com/wrzs_apiserver/,如下图：
+![输入图片说明](images/ddyw.png)
+3.添加房间启动进程，启动指令php think roomStart，目录同上，如下图：
+![输入图片说明](images/roomstart.png)
+4.添加房间结束进程，启动指令php think roomEnd，目录同上，如下图：
+![输入图片说明](images/roomend.png)
+5.短信和语音通知进程，启动指令 php think roomEndSms，目录同上，如下图：
+![输入图片说明](images/fjddjs.png)
 
 ### 二、系统结构
 #### 1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
