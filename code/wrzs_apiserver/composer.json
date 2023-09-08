@@ -24,6 +24,7 @@
         "topthink/framework": "^6.0.0",
         "topthink/think-orm": "^2.0",
         "topthink/think-multi-app": "^1.0",
+        "topthink/think-filesystem":"^1.0",
         "overtrue/wechat": "~5.0",
         "pda/pheanstalk": "^4.0",
         "endroid/qr-code": "^4.3",
