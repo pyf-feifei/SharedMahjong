@@ -22,7 +22,8 @@
 
 ### 四、已部署好的演示平台（后端及小程序）
 #### 1.接口服务端,部署案例：https://was.weishequ.com ;无UI界面。
-
+小程序及收款商户配置文件在：wrzs_apiserver\app\common\kg\src\watch\Watch.php;
+![输入图片说明](images/miniappconfig.png)
 #### 2.系统管理端,部署案例：https://wma.weishequ.com 用户名admin 密码weimenjin 微门禁拼音，请不要修改这个密码，以便其他人能登录。
 ![输入图片说明](images/image4.png)
 ![输入图片说明](images/image5.png)
